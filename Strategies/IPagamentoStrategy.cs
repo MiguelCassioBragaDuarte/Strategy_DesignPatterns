@@ -1,11 +1,8 @@
 namespace SistemaDePagamentos_Strategy.Strategies
 {
-    public class IPagamentoStrategy
+    public interface IPagamentoStrategy
     {
-        public string Pagar (double valor)
-        {
-            throw new NotImplementedException();
-        }
+        string Pagar(double valor);
     }
 }
 

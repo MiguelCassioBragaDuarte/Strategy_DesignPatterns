@@ -17,6 +17,7 @@
                 <ComboBoxItem Content="Pix"/>
                 <ComboBoxItem Content="Cartão"/>
                 <ComboBoxItem Content="Boleto"/>
+                <ComboBoxItem Content="Dinheiro"/>
             </ComboBox>
 
             <Button Content="Pagar" Click="BtnPagar_Click" Margin="0,15,0,0"/>
