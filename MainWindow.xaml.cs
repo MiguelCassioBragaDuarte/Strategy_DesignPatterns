@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MahApps.Metro.Controls;
 using SistemaDePagamentos_Strategy.Context;
 using SistemaDePagamentos_Strategy.Strategies;
 
@@ -16,7 +17,7 @@ namespace SistemaDePagamentos_Strategy;
 /// <summary>
 /// Interaction logic for MainWindow.xaml
 /// </summary>
-public partial class MainWindow : Window
+public partial class MainWindow : MetroWindow
 {
     public MainWindow()
     {
@@ -61,24 +62,21 @@ public partial class MainWindow : Window
                 context.DefinirStrategy(new Dinheiro());
                 break;
 
-            default:
-                txtResultado.Text = "Selecione uma forma de pagamento.";
-                return;
-
                 
         }
         
-        btnNovo.Visibility = Visibility.Visible;
-        btnPagar.Visibility = Visibility.Collapsed;
+        string resultado = context.ExecutarPagamento(valor);
 
-        txtResultado.Text = context.ExecutarPagamento(valor);
+        MessageBox.Show(resultado, "Pagamento realizado", MessageBoxButton.OK, MessageBoxImage.Information);
+
+        btnPagar.Visibility = Visibility.Collapsed;
+        btnNovo.Visibility = Visibility.Visible;
     }
     private void BtnNovo_Click(object sender, RoutedEventArgs e)
     {
         txtValor.Text = "";
         cbPagamento.SelectedIndex = -1;
-        txtResultado.Text = "";
-
+        
         btnNovo.Visibility = Visibility.Collapsed;
         btnPagar.Visibility = Visibility.Visible;
 

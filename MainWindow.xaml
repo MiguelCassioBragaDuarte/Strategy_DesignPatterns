@@ -1,31 +1,68 @@
-﻿<Window x:Class="SistemaDePagamentos_Strategy.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:SistemaDePagamentos_Strategy"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid Margin="10">
-        <StackPanel>
+﻿<Controls:MetroWindow x:Class="SistemaDePagamentos_Strategy.MainWindow"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                      xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+                      mc:Ignorable="d"
+                      Title="Sistema de Pagamentos"
+                      Height="400" Width="500"
+                      WindowStartupLocation="CenterScreen">
 
-            <TextBlock Text="Valor:"/>
-            <TextBox Name="txtValor" Margin="0,5"/>
+    <Grid Margin="20">
 
-            <TextBlock Text="Forma de Pagamento:" Margin="0,10,0,0"/>
-            <ComboBox Name="cbPagamento" Margin="0,5">
-                <ComboBoxItem Content="Pix"/>
-                <ComboBoxItem Content="Cartão"/>
-                <ComboBoxItem Content="Boleto"/>
-                <ComboBoxItem Content="Dinheiro"/>
-            </ComboBox>
+        <Border CornerRadius="10" Padding="20" Background="White">
+            <StackPanel>
 
-            <Button x:Name="btnPagar" Content="Pagar" Click="BtnPagar_Click" Margin="0,15,0,0"/>
+                <!-- TÍTULO -->
+                <TextBlock Text="💳 Sistema de Pagamentos"
+                           FontSize="22"
+                           FontWeight="Bold"
+                           Margin="0,0,0,20"
+                           HorizontalAlignment="Center"/>
 
-            <Button x:Name="btnNovo" Content="Novo Pagamento" Click="BtnNovo_Click" Margin="0,5,0,0" Visibility="Collapsed"/>
+                <!-- VALOR -->
+                <TextBlock Text="Valor" FontWeight="SemiBold"/>
+                <TextBox Name="txtValor"
+                         Height="35"
+                         Margin="0,5,0,10"
+                         FontSize="14"
+                         Controls:TextBoxHelper.Watermark="Digite o valor"/>
 
-            <TextBlock Name="txtResultado" Margin="0,10" TextWrapping="Wrap"/>
+                <!-- PAGAMENTO -->
+                <TextBlock Text="Forma de Pagamento" FontWeight="SemiBold"/>
+                <ComboBox Name="cbPagamento"
+                          Height="35"
+                          Margin="0,5,0,20"
+                          Controls:TextBoxHelper.Watermark="Selecione um método">
+                    <ComboBoxItem Content="Pix"/>
+                    <ComboBoxItem Content="Cartão"/>
+                    <ComboBoxItem Content="Boleto"/>
+                    <ComboBoxItem Content="Dinheiro"/>
+                </ComboBox>
 
-        </StackPanel>
+                <!-- BOTÕES -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+
+                    <Button x:Name="btnPagar"
+                            Content="Pagar"
+                            Width="120"
+                            Height="40"
+                            Margin="5"
+                            Click="BtnPagar_Click"/>
+
+                    <Button x:Name="btnNovo"
+                            Content="Novo"
+                            Width="120"
+                            Height="40"
+                            Margin="5"
+                            Click="BtnNovo_Click"
+                            Visibility="Collapsed"/>
+
+                </StackPanel>
+
+            </StackPanel>
+        </Border>
+
     </Grid>
-</Window>
+</Controls:MetroWindow>

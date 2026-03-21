@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaDePagamentos_Strategy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ede2a4358aced0918828b5ef757a516b4cc3198a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1a98f392afb29fd5ea540bd17c23c7ef2d64b74")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaDePagamentos_Strategy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaDePagamentos_Strategy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "/ypnlRxR4gs=",
+  "dgSpecHash": "gTs1L4Hx3bI=",
   "success": true,
   "projectFilePath": "C:\\Users\\Migue\\RiderProjects\\SistemaDePagamentos_Strategy\\SistemaDePagamentos_Strategy.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Migue\\.nuget\\packages\\controlzex\\7.0.2\\controlzex.7.0.2.nupkg.sha512",
+    "C:\\Users\\Migue\\.nuget\\packages\\mahapps.metro\\3.0.0-rc0529\\mahapps.metro.3.0.0-rc0529.nupkg.sha512",
+    "C:\\Users\\Migue\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.135\\microsoft.xaml.behaviors.wpf.1.1.135.nupkg.sha512",
+    "C:\\Users\\Migue\\.nuget\\packages\\system.memory\\4.6.3\\system.memory.4.6.3.nupkg.sha512",
+    "C:\\Users\\Migue\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

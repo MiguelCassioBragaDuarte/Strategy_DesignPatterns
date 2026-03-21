@@ -6,7 +6,6 @@ C:\Users\Migue\RiderProjects\SistemaDePagamentos_Strategy\bin\Debug\net9.0-windo
 C:\Users\Migue\RiderProjects\SistemaDePagamentos_Strategy\obj\Debug\net9.0-windows\MainWindow.g.cs
 C:\Users\Migue\RiderProjects\SistemaDePagamentos_Strategy\obj\Debug\net9.0-windows\App.g.cs
 C:\Users\Migue\RiderProjects\SistemaDePagamentos_Strategy\obj\Debug\net9.0-windows\SistemaDePagamentos_Strategy_MarkupCompile.cache
-C:\Users\Migue\RiderProjects\SistemaDePagamentos_Strategy\obj\Debug\net9.0-windows\SistemaDePagamentos_Strategy_MarkupCompile.lref
 C:\Users\Migue\RiderProjects\SistemaDePagamentos_Strategy\obj\Debug\net9.0-windows\MainWindow.baml
 C:\Users\Migue\RiderProjects\SistemaDePagamentos_Strategy\obj\Debug\net9.0-windows\SistemaDePagamentos_Strategy.g.resources
 C:\Users\Migue\RiderProjects\SistemaDePagamentos_Strategy\obj\Debug\net9.0-windows\SistemaDePagamentos_Strategy.GeneratedMSBuildEditorConfig.editorconfig
@@ -19,3 +18,10 @@ C:\Users\Migue\RiderProjects\SistemaDePagamentos_Strategy\obj\Debug\net9.0-windo
 C:\Users\Migue\RiderProjects\SistemaDePagamentos_Strategy\obj\Debug\net9.0-windows\SistemaDePagamentos_Strategy.pdb
 C:\Users\Migue\RiderProjects\SistemaDePagamentos_Strategy\obj\Debug\net9.0-windows\SistemaDePagamentos_Strategy.genruntimeconfig.cache
 C:\Users\Migue\RiderProjects\SistemaDePagamentos_Strategy\obj\Debug\net9.0-windows\ref\SistemaDePagamentos_Strategy.dll
+C:\Users\Migue\RiderProjects\SistemaDePagamentos_Strategy\obj\Debug\net9.0-windows\SistemaDePagamentos_Strategy.csproj.AssemblyReference.cache
+C:\Users\Migue\RiderProjects\SistemaDePagamentos_Strategy\obj\Debug\net9.0-windows\App.baml
+C:\Users\Migue\RiderProjects\SistemaDePagamentos_Strategy\bin\Debug\net9.0-windows\ControlzEx.dll
+C:\Users\Migue\RiderProjects\SistemaDePagamentos_Strategy\bin\Debug\net9.0-windows\MahApps.Metro.dll
+C:\Users\Migue\RiderProjects\SistemaDePagamentos_Strategy\bin\Debug\net9.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\Migue\RiderProjects\SistemaDePagamentos_Strategy\bin\Debug\net9.0-windows\de\MahApps.Metro.resources.dll
+C:\Users\Migue\RiderProjects\SistemaDePagamentos_Strategy\obj\Debug\net9.0-windows\SistemaD.F91828E7.Up2Date
