@@ -6,7 +6,23 @@
         xmlns:local="clr-namespace:SistemaDePagamentos_Strategy"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Margin="10">
+        <StackPanel>
 
+            <TextBlock Text="Valor:"/>
+            <TextBox Name="txtValor" Margin="0,5"/>
+
+            <TextBlock Text="Forma de Pagamento:" Margin="0,10,0,0"/>
+            <ComboBox Name="cbPagamento" Margin="0,5">
+                <ComboBoxItem Content="Pix"/>
+                <ComboBoxItem Content="Cartão"/>
+                <ComboBoxItem Content="Boleto"/>
+            </ComboBox>
+
+            <Button Content="Pagar" Click="BtnPagar_Click" Margin="0,15,0,0"/>
+
+            <TextBlock Name="txtResultado" Margin="0,10" TextWrapping="Wrap"/>
+
+        </StackPanel>
     </Grid>
 </Window>
