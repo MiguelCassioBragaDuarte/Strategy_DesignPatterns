@@ -49,7 +49,7 @@ Esse padrão possibilita que o comportamento de um objeto seja alterado dinamica
 
 Na prática, ele promove a separação entre o que é feito (comportamento) e como é feito (implementação), delegando a responsabilidade das diferentes variações de um algoritmo para classes específicas.
 
-
+![Sistema](Imagens/Strategy-design-pattern.webp)
 
 Dessa forma, o Strategy reduz o uso de estruturas condicionais complexas (como múltiplos if/else), favorecendo um design mais modular, extensível e aderente ao princípio Open/Closed, onde novas funcionalidades podem ser adicionadas sem alterar o código existente.
 
