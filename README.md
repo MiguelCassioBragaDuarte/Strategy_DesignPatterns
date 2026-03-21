@@ -280,10 +280,10 @@ No contexto deste projeto, o uso do padrão foi justificado pela necessidade de 
 
 ## Referências
 
-Erich Gamma; Richard Helm; Ralph Johnson; John Vlissides. Design Patterns: Elements of Reusable Object-Oriented Software. Boston: Addison-Wesley, 1994.
-Eric Freeman; Elisabeth Robson. Head First Design Patterns. Sebastopol: O’Reilly Media, 2004.
-Refactoring Guru. Strategy Pattern. Disponível em: https://refactoring.guru/design-patterns/strategy
-GeeksforGeeks. Strategy Design Pattern in C#. Disponível em: https://www.geeksforgeeks.org/
+- Erich Gamma; Richard Helm; Ralph Johnson; John Vlissides. Design Patterns: Elements of Reusable Object-Oriented Software. Boston: Addison-Wesley, 1994.
+- Eric Freeman; Elisabeth Robson. Head First Design Patterns. Sebastopol: O’Reilly Media, 2004.
+- Refactoring Guru. Strategy Pattern. Disponível em: https://refactoring.guru/design-patterns/strategy
+- GeeksforGeeks. Strategy Design Pattern in C#. Disponível em: https://www.geeksforgeeks.org/
 
 ## Autor
 
