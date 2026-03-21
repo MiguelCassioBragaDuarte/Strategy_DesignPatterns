@@ -1,6 +1,8 @@
-namespace SistemaDePagamentos_Strategy.Strategies;
-
-public class IPagamentoStrategy
+namespace SistemaDePagamentos_Strategy.Strategies
 {
-    string Pagar(double valor);
+    public class IPagamentoStrategy
+    {
+        string Pagar(double valor);
+    }
 }
+

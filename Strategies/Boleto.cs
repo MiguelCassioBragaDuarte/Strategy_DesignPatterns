@@ -1,9 +1,11 @@
-namespace SistemaDePagamentos_Strategy.Strategies;
-
-public class Boleto: IPagamentoStrategy
+namespace SistemaDePagamentos_Strategy.Strategies
 {
-    public string Pagar(double valor)
+    public class Boleto: IPagamentoStrategy
     {
-        return $"Boleto gerado no valor de R$ {valor}.";
+        public string Pagar(double valor)
+        {
+            return $"Boleto gerado no valor de R$ {valor}.";
+        }
     }
 }
+

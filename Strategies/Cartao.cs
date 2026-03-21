@@ -1,9 +1,11 @@
-namespace SistemaDePagamentos_Strategy.Strategies;
-
-public class Cartao:IPagamentoStrategy
+namespace SistemaDePagamentos_Strategy.Strategies
 {
-    public string Pagar(double valor)
+    public class Cartao:IPagamentoStrategy
     {
-        return $"Pagamento de R$ {valor} realizado via Cartão.";
+        public string Pagar(double valor)
+        {
+            return $"Pagamento de R$ {valor} realizado via Cartão.";
+        }
     }
 }
+

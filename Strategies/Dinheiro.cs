@@ -1,9 +1,11 @@
-namespace SistemaDePagamentos_Strategy.Strategies;
-
-public class Dinheiro: IPagamentoStrategy
+namespace SistemaDePagamentos_Strategy.Strategies
 {
-    public string Pagar(double valor)
+    public class Dinheiro: IPagamentoStrategy
     {
-        return $"Pagamento de R$ {valor} realizado no Dinhero.";
+        public string Pagar(double valor)
+        {
+            return $"Pagamento de R$ {valor} realizado no Dinhero.";
+        }
     }
 }
+

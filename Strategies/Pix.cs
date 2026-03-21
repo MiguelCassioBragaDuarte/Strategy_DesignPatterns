@@ -1,11 +1,13 @@
 using SistemaDePagamentos_Strategy.Strategies;
 
-namespace SistemaDePagamentos_Strategy.Strategies;
-
-public class Pix: IPagamentoStrategy
+namespace SistemaDePagamentos_Strategy.Strategies
 {
-    public string Pagar(double valor)
+    public class Pix: IPagamentoStrategy
     {
-        return $"Pagamento de R$ {valor} realizado via PIX.";
+        public string Pagar(double valor)
+        {
+            return $"Pagamento de R$ {valor} realizado via PIX.";
+        }
     }
 }
+
