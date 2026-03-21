@@ -28,9 +28,16 @@ public partial class MainWindow : Window
         PagamentoContext context = new PagamentoContext();
 
         double valor;
-        if (!double.TryParse(txtValor.Text, out valor))
+        if (!double.TryParse(txtValor.Text, out valor) || string.IsNullOrWhiteSpace(txtValor.Text))
         {
-            txtResultado.Text = "Digite um valor válido.";
+            MessageBox.Show("Digite um valor Valido!",
+                "Erro", MessageBoxButton.OK, MessageBoxImage.Warning);
+            return;
+        }
+        if (cbPagamento.SelectedIndex == -1)
+        {
+            MessageBox.Show("Selecione a forma de pagamento!",
+                "Erro", MessageBoxButton.OK, MessageBoxImage.Warning);
             return;
         }
 
@@ -57,8 +64,24 @@ public partial class MainWindow : Window
             default:
                 txtResultado.Text = "Selecione uma forma de pagamento.";
                 return;
+
+                
         }
+        
+        btnNovo.Visibility = Visibility.Visible;
+        btnPagar.Visibility = Visibility.Collapsed;
 
         txtResultado.Text = context.ExecutarPagamento(valor);
+    }
+    private void BtnNovo_Click(object sender, RoutedEventArgs e)
+    {
+        txtValor.Text = "";
+        cbPagamento.SelectedIndex = -1;
+        txtResultado.Text = "";
+
+        btnNovo.Visibility = Visibility.Collapsed;
+        btnPagar.Visibility = Visibility.Visible;
+
+        txtValor.Focus();
     }
 }
