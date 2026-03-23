@@ -1,14 +1,30 @@
 {
   "version": 2,
-  "dgSpecHash": "gTs1L4Hx3bI=",
+  "dgSpecHash": "9JVljEwFido=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Migue\\RiderProjects\\SistemaDePagamentos_Strategy\\SistemaDePagamentos_Strategy.csproj",
+  "projectFilePath": "C:\\Users\\DEV_NOITE\\RiderProjects\\SistemaDePagamentos_Strategy\\SistemaDePagamentos_Strategy.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Migue\\.nuget\\packages\\controlzex\\7.0.2\\controlzex.7.0.2.nupkg.sha512",
-    "C:\\Users\\Migue\\.nuget\\packages\\mahapps.metro\\3.0.0-rc0529\\mahapps.metro.3.0.0-rc0529.nupkg.sha512",
-    "C:\\Users\\Migue\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.135\\microsoft.xaml.behaviors.wpf.1.1.135.nupkg.sha512",
-    "C:\\Users\\Migue\\.nuget\\packages\\system.memory\\4.6.3\\system.memory.4.6.3.nupkg.sha512",
-    "C:\\Users\\Migue\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
+    "C:\\Users\\DEV_NOITE\\.nuget\\packages\\controlzex\\7.0.2\\controlzex.7.0.2.nupkg.sha512",
+    "C:\\Users\\DEV_NOITE\\.nuget\\packages\\mahapps.metro\\3.0.0-rc0529\\mahapps.metro.3.0.0-rc0529.nupkg.sha512",
+    "C:\\Users\\DEV_NOITE\\.nuget\\packages\\microsoft.data.sqlite.core\\11.0.0-preview.2.26159.112\\microsoft.data.sqlite.core.11.0.0-preview.2.26159.112.nupkg.sha512",
+    "C:\\Users\\DEV_NOITE\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.135\\microsoft.xaml.behaviors.wpf.1.1.135.nupkg.sha512",
+    "C:\\Users\\DEV_NOITE\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\DEV_NOITE\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\DEV_NOITE\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\DEV_NOITE\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\DEV_NOITE\\.nuget\\packages\\sourcegear.sqlite3\\3.50.4.2\\sourcegear.sqlite3.3.50.4.2.nupkg.sha512",
+    "C:\\Users\\DEV_NOITE\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\3.0.2\\sqlitepclraw.bundle_e_sqlite3.3.0.2.nupkg.sha512",
+    "C:\\Users\\DEV_NOITE\\.nuget\\packages\\sqlitepclraw.config.e_sqlite3\\3.0.2\\sqlitepclraw.config.e_sqlite3.3.0.2.nupkg.sha512",
+    "C:\\Users\\DEV_NOITE\\.nuget\\packages\\sqlitepclraw.core\\3.0.2\\sqlitepclraw.core.3.0.2.nupkg.sha512",
+    "C:\\Users\\DEV_NOITE\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\3.0.2\\sqlitepclraw.provider.e_sqlite3.3.0.2.nupkg.sha512",
+    "C:\\Users\\DEV_NOITE\\.nuget\\packages\\system.data.sqlclient\\4.9.1\\system.data.sqlclient.4.9.1.nupkg.sha512",
+    "C:\\Users\\DEV_NOITE\\.nuget\\packages\\system.data.sqlite\\2.0.3\\system.data.sqlite.2.0.3.nupkg.sha512",
+    "C:\\Users\\DEV_NOITE\\.nuget\\packages\\system.memory\\4.6.3\\system.memory.4.6.3.nupkg.sha512",
+    "C:\\Users\\DEV_NOITE\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512",
+    "C:\\Users\\DEV_NOITE\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.25\\microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\DEV_NOITE\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.25\\microsoft.windowsdesktop.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\DEV_NOITE\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.25\\microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\DEV_NOITE\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.25\\microsoft.netcore.app.host.win-x64.8.0.25.nupkg.sha512"
   ],
   "logs": []
 }

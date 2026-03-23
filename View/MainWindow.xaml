@@ -1,0 +1,86 @@
+﻿<Controls:MetroWindow x:Class="SistemaDePagamentos_Strategy.View.MainWindow"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                      xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+                      mc:Ignorable="d"
+                      Title="Sistema de Pagamentos"
+                      Height="500" Width="600"
+                      WindowStartupLocation="CenterScreen">
+
+    <Grid Margin="20">
+
+        <Border CornerRadius="10" Padding="20" Background="White">
+            <StackPanel>
+
+                <!-- TÍTULO -->
+                <TextBlock Text="💳 Sistema de Pagamentos"
+                           FontSize="22"
+                           FontWeight="Bold"
+                           Margin="0,0,0,20"
+                           HorizontalAlignment="Center"/>
+
+                <!-- VALOR -->
+                <TextBlock Text="Valor" FontWeight="SemiBold"/>
+                <TextBox Height="35"
+                         Margin="0,5,0,10"
+                         FontSize="14"
+                         Text="{Binding Valor, UpdateSourceTrigger=PropertyChanged}"
+                         Controls:TextBoxHelper.Watermark="Digite o valor"/>
+
+                <!-- PAGAMENTO -->
+                <TextBlock Text="Forma de Pagamento" FontWeight="SemiBold"/>
+                <ComboBox Height="35"
+                          Margin="0,5,0,20"
+                          SelectedItem="{Binding PagamentoSelecionado}"
+                          Controls:TextBoxHelper.Watermark="Selecione um método">
+
+                    <ComboBoxItem Content="Pix"/>
+                    <ComboBoxItem Content="Cartão"/>
+                    <ComboBoxItem Content="Boleto"/>
+                    <ComboBoxItem Content="Dinheiro"/>
+
+                </ComboBox>
+
+                <!-- BOTÕES -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+
+                    <Button Content="Pagar"
+                            Width="120"
+                            Height="40"
+                            Margin="5"
+                            Command="{Binding PagarCommand}"/>
+
+                    <Button Content="Novo"
+                            Width="120"
+                            Height="40"
+                            Margin="5"
+                            Command="{Binding NovoCommand}"/>
+
+                </StackPanel>
+
+                <!-- HISTÓRICO -->
+                <TextBlock Text="Histórico de Pagamentos"
+                           FontWeight="Bold"
+                           Margin="0,20,0,10"
+                           FontSize="16"/>
+
+                <DataGrid ItemsSource="{Binding Pagamentos}"
+                          AutoGenerateColumns="False"
+                          Height="200">
+
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Tipo" Binding="{Binding Tipo}" />
+                        <DataGridTextColumn Header="Valor" Binding="{Binding Valor}" />
+                        <DataGridTextColumn Header="Final" Binding="{Binding ValorFinal}" />
+                        <DataGridTextColumn Header="Data" Binding="{Binding Data}" />
+                    </DataGrid.Columns>
+
+                </DataGrid>
+
+            </StackPanel>
+        </Border>
+
+    </Grid>
+</Controls:MetroWindow>

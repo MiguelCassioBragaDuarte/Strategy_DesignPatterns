@@ -45,7 +45,7 @@ namespace SistemaDePagamentos_Strategy {
         /// InitializeComponent
         /// </summary>
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "9.0.11.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "10.0.5.0")]
         public void InitializeComponent() {
             if (_contentLoaded) {
                 return;
@@ -71,7 +71,7 @@ namespace SistemaDePagamentos_Strategy {
         /// </summary>
         [System.STAThreadAttribute()]
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "9.0.11.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "10.0.5.0")]
         public static void Main() {
             SistemaDePagamentos_Strategy.App app = new SistemaDePagamentos_Strategy.App();
             app.InitializeComponent();

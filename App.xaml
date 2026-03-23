@@ -1,8 +1,8 @@
 ﻿<Application x:Class="SistemaDePagamentos_Strategy.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             StartupUri="MainWindow.xaml">
-    
+             StartupUri="View/MainWindow.xaml">
+
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
